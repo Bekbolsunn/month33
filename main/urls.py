@@ -20,4 +20,7 @@ from blog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.say_hello),
+    path('rand_num/', views.random1),
+    path('rand_lox', views.rand_choice)
+
 ]
